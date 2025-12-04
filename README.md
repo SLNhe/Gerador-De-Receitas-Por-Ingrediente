@@ -42,25 +42,7 @@ https://zuhause.arq.br/receita/
 
 ---
 
-## 🧠 Como funciona a tradução PT → EN?
-
-O sistema verifica se o ingrediente digitado está na tabela de tradução.  
-Se estiver → traduz  
-Se não estiver → usa o próprio texto do usuário
-
-```js
-
-const traducaoIngredientes = {
-    "tomate": "tomato",
-    "banana": "banana",
-    "frango": "chicken",
-    "carne": "beef",
-    ...
-};
-
-
 📁 Estrutura do Projeto
-
 /
 ├── index.html
 ├── style.css
@@ -68,7 +50,7 @@ const traducaoIngredientes = {
 └── img/
 
 
-Uso
+📝 Uso
 
 Digite um ingrediente no campo de pesquisa
 
@@ -77,6 +59,7 @@ O sistema traduz e busca receitas automaticamente
 Clique em qualquer receita para ver os detalhes
 
 A instrução completa aparecerá abaixo
+
 
 🛠️ Melhorias Futuras
 
@@ -90,9 +73,11 @@ Possibilitar salvar receitas favoritas
 
 Traduzir automaticamente instruções (EN → PT)
 
+
 📄 Licença
 
 Este projeto está sob a licença MIT — livre para estudar, modificar e distribuir.
+
 
 👨‍💻 Desenvolvido por
 
@@ -100,4 +85,3 @@ Sôlin Heusser
 📧 heusser.solin@gmail.com
 
 🌐 https://zuhause.arq.br/Portifolio
-
