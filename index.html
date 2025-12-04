@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Buscador de Receitas por Ingrediente</h1>
+
+        <!--Entrada de dados-->
+        <form class="search-form">
+            <input type="text" placeholder="Digite o Ingrediente" class="search-input">
+            <button class="search-button" type="submit">Buscar</button>
+        </form>
+
+        <div class="loading"></div>
+        <div class="receita-lista"></div>
+        <div class="receita-detalhes"></div>
+
+    </main>
+
+    
+    
+    <!--Conteudo-->
+    <section class="conteudo-info"
+    style="max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; font-family: Arial;">
+    <h1>Gerador de Receitas por Ingrediente</h1>
+
+        <p>
+            Bem-vindo ao nosso gerador de receitas! Aqui você digita um ingrediente e recebe
+            sugestões de pratos que podem ser preparados com ele. É uma forma rápida e prática
+            de descobrir novas ideias para o seu dia a dia.
+        </p>
+
+        <p>
+            A ferramenta funciona usando uma API pública que busca receitas e mostra informações
+            como modo de preparo, ingredientes e imagem do prato. Assim, você consegue encontrar
+            algo gostoso mesmo quando tem poucos ingredientes em casa.
+        </p>
+
+        <h2>Como usar</h2>
+        <ul>
+            <li>Digite um ingrediente no campo de pesquisa.</li>
+            <li>O sistema realiza a busca automática.</li>
+            <li>As receitas aparecem logo abaixo com todos os detalhes.</li>
+        </ul>
+
+        <h2>Benefícios</h2>
+        <ul>
+            <li>Rápido e fácil de usar</li>
+            <li>Funciona em qualquer dispositivo</li>
+            <li>Receitas completas com foto e passo a passo</li>
+            <li>Traduz ingredientes automaticamente quando necessário</li>
+        </ul>
+
+        <p>
+            As informações exibidas são fornecidas pela API pública TheMealDB e podem variar conforme
+            a disponibilidade da base de dados.
+        </p>
+
+        <hr style="margin: 30px 0;">
+
+        <p>
+            <strong>Contato:</strong> heusser.solin@gmail.com<br>
+            <strong>Desenvolvido por:</strong> Sôlin Heusser © 2025<br>
+            <a href="https://zuhause.arq.br/politica-de-privacidade/" style="color: #007BFF;">Política de Privacidade</a>
+        </p>
+    </section>
+
+    <!--RODAPÉ-->
+    <div class="rodape">
+        <p> Feito por Sôlin Heusser -ZuhauseModernDesign <a
+                href="https://zuhause.arq.br/politica-de-privacidade/">Politica de Privacidade</a></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
