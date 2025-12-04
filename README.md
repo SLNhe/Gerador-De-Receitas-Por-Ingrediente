@@ -49,8 +49,9 @@ https://zuhause.arq.br/receita/
 ├── scripts.js
 └── img/
 
+---
 
-📝 Uso
+## 📝 Uso
 
 Digite um ingrediente no campo de pesquisa
 
@@ -60,8 +61,9 @@ Clique em qualquer receita para ver os detalhes
 
 A instrução completa aparecerá abaixo
 
+---
 
-🛠️ Melhorias Futuras
+## 🛠️ Melhorias Futuras
 
 Adicionar mais ingredientes ao dicionário PT → EN
 
@@ -73,13 +75,15 @@ Possibilitar salvar receitas favoritas
 
 Traduzir automaticamente instruções (EN → PT)
 
+---
 
-📄 Licença
+## 📄 Licença
 
 Este projeto está sob a licença MIT — livre para estudar, modificar e distribuir.
 
+---
 
-👨‍💻 Desenvolvido por
+## 👨‍💻 Desenvolvido por
 
 Sôlin Heusser
 📧 heusser.solin@gmail.com
